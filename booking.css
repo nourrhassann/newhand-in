@@ -1,0 +1,148 @@
+/*START OF CSS*/
+body{
+    background-image: url(Images/pexels-sharon-mccutcheon-5899474.jpg);
+    font-family: 'Bebas Neue', cursive;  
+}
+header{
+    color: white;
+    font-size: 70px;
+}
+header .logo{
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        margin-left: 1%;
+}
+header.menu{
+        color: white;
+        text-decoration: none;
+}
+/*FONTS*/
+h3{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bold;
+    color: black;
+    padding-top: 8%;
+}
+p{
+    font-family: 'Bebas Neue' cursive;
+    color: white;  
+}
+/*NAVIGATION BAR*/
+  a{
+      padding: 8px;
+      text-decoration: none;
+  }
+  nav{
+    font-family: 'Bebas Neue' cursive;
+    float: right;
+    color: rgb(0, 0, 0);
+  }
+  ul {
+      list-style-type: none;
+      background: none;
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      color: rgb(0, 0, 0);
+      background:none;
+      display: block;
+      float: right;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+      font-size: 60px;
+  }
+  li a{
+      display:inline;
+      color: rgb(3, 3, 3);
+      text-align: right;
+      font-family: 'Bebas Neue' cursive;
+      font-weight: bold;
+      float: right;
+      font-size: 50%;
+  }
+  li:hover {
+    cursor: pointer;
+}
+    /*BUTTON ICONS*/
+      .iconbtt{
+        display: inline-block;
+    }
+    /*ICONS*/
+     .icons{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    .container img {
+        width: 20%;
+        height: auto;
+    }
+    input[type=text] {
+        border: 2px solid #000000;
+        border-radius: 4px;
+      }
+      input {
+        width: 70%;
+      }
+    /*CONTINUE BUTTON*/
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+    } 
+    .Continue{
+        background-color: #000000;
+        color: white;
+    }
+    /*GO BACK BUTTON*/
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+        font-family: 'Bebas Neue' cursive;
+        font-weight: bold;
+    }
+    .Back{
+        background-color: white;
+        color: black;
+        font-family: 'Bebas Neue' cursive;
+        font-weight: bold;
+    }
+    /*FOOTER*/
+    footer{
+        margin-top: 500px;
+        height: 100px;
+        color: grey;
+        left: 0;
+        right: 0;
+    }
+    .footer-content{
+        padding: 24px;
+        font-family: 'Bebas Neue' cursive;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin-bottom: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+        line-break: auto;
+    }
+    .footer-content ul a{
+        display: inline-block;
+        margin-bottom: 5px;
+        vertical-align: middle;
+        color: rgb(255, 255, 255);
+    }
+    .footer-content ul li{
+        display: inline-block;
+    }
+    footer img{
+      width: 70px;
+      height: auto;
+      padding: -60px;
+    }

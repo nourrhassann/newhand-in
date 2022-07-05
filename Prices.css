@@ -1,0 +1,125 @@
+/*START OF CSS*/
+body{  
+    background-color: #42455a;
+    font-family: 'Bebas Neue', cursive;
+  }
+/*LOGO & HEADER*/
+  header{
+    color: white;
+    font-size: 70px;
+  }
+  header .logo{
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+        margin-left: 1%;
+  } 
+  header.menu{
+      color: white;
+      text-decoration: none;
+  }
+  /*NAVIGATION BAR*/
+  a{
+      padding: 8px;
+      text-decoration: none;
+  }
+  nav{
+    font-family: 'Bebas Neue' cursive;
+    float: right;
+    color: rgb(0, 0, 0);
+  }
+  ul {
+      list-style-type: none;
+      background: none;
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      color: rgb(0, 0, 0);
+      background:none;
+      display: block;
+      float: right;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.5s;
+      font-size: 60px;
+  }
+  li a{
+      display:inline;
+      color: rgb(3, 3, 3);
+      text-align: right;
+      font-family: 'Bebas Neue' cursive;
+      font-weight: bold;
+      float: right;
+      font-size: 50%;
+  }
+  li:hover {
+    cursor: pointer;
+}
+/*GRID*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30%;
+    padding-top: 8%;
+  }
+    /*FONTS*/
+    h1 {
+        font-family: 'Bebas Neue' cursive;
+        color:black;
+        padding-top: 8%;
+    }
+    h2{
+        font-family: 'Bebas Neue' cursive;
+        color: black;
+        padding-top: 8%;
+    }
+    p{
+        font-family: 'Bebas Neue' cursive;
+        color:white;
+    }
+  .text{
+    color:black;
+    font-family: 'Bebas Neue' cursive;
+    text-align: center;
+    font-size: 15px;
+    
+  }
+    /*FOOTER*/
+      footer{
+          margin-top: 500px;
+          height: 60px;
+          background: transparent;
+          left: 0;
+          right: 0;
+          position: absolute;
+        }
+        .footer-content{
+          padding: 24px;
+          font-family: 'Bebas Neue' cursive;
+          color: rgb(255, 255, 255);
+          text-align: center;
+      }
+        .footer-content p{
+          max-width: 500px;
+          line-height: 28px;
+          font-size: 14px;
+          line-break: auto;
+         
+        }
+        .footer-content ul a{
+          
+          margin-bottom: 5px;
+          vertical-align: middle;
+          color: rgb(255, 255, 255);
+        }
+        
+        .footer-content ul li{
+          display: inline-block;
+        }
+        footer img{
+          width: 70px;
+          height: auto;
+          padding: -60px;
+      }
+      /*END OF CODE*/

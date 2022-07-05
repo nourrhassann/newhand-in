@@ -1,0 +1,92 @@
+/*START OF CSS*/
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+font-size: 80px;
+}
+#background-video {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+header .logo{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-left: 1%;
+}
+header.menu{
+    color: white;
+    text-decoration: none;
+
+}
+h1 {
+    font-size: 110px;
+    color: white;
+    float: left;
+}
+h2 {
+    font-size: 150px;
+    color: whitesmoke;
+    float: left;
+}
+   h3 {
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+   float: left;
+   }
+   h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+/*NAVIGATION BAR*/
+a{
+    padding: 8px;
+    text-decoration: none;
+}
+nav{
+  font-family: 'Bebas Neue' cursive;
+  float: right;
+  color: rgb(0, 0, 0);
+}
+ul {
+    list-style-type: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    color: rgb(255, 255, 255);
+    background:none;
+    display: block;
+    float: right;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 60px;
+}
+li a{
+    display:inline;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bold;
+    float: right;
+    font-size: 50%;
+}
+li:hover {
+  cursor: pointer;
+}
+  img {
+    display: center;
+    width: 60%;
+    align-items: right;
+  }
