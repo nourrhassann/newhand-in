@@ -1,6 +1,6 @@
 /*START OF CSS*/
 body{
-    background-color: #42455a;
+    background-image: url(Images/maxime-bhm-icyZmdkCGZ0-unsplash.jpg);
     font-family: 'Bebas Neue', cursive;  
 } 
 header{
@@ -18,20 +18,26 @@ header.menu{
 }
 /*FONTS*/
 h1{
-    font-family: 'Bebas Neue' cursive;
-    font-weight: bolder;
-    color: black;
-    padding-top: 8%;
+  font-family: 'Bebas Neue' cursive;
+  font-weight: bolder;
+  color: white;
+  padding-top: 8%;
 }
 h2{
-    font-family: 'Bebas Neue' cursive;
-    font: bold;
-    color: black;
+  font-family: 'Bebas Neue' cursive;
+  font: bold;
+  color: black;
+  padding-top: 8%;
 }
 h3{
     font-family: 'Bebas Neue' cursive;
     font-weight: normal;
     color: black;
+}
+h5{
+  font-family: 'Bebas Neue' cursive;
+  color: white;
+  text-align: center;
 }
 /*NAVIGATION BAR*/
 a{
@@ -72,64 +78,29 @@ li a{
 li:hover {
   cursor: pointer;
 }
-/*ICONS*/
-.icons{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
-.container img {
-    width: 20%;
-    height: auto;
-}
 /*SLIDESHOW GALLERY*/
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-}
-.mySlides {
-    display: none;
-}
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-.text {
-    color: white;
+  }
+  .text {
+    color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
-}          
-.numbertext {
+  }
+  .numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-}
-.dot {
-    cursor: pointer;
+  }
+  .dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -137,18 +108,18 @@ li:hover {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
+  }
+  .active {
     background-color: #717171;
-}
-.fade {
+  }
+  .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-} 
+  }
   @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .4} 
     to {opacity: 1}
-}
+  }
 /*FOOTER*/
 footer{
     margin-top: 500px;

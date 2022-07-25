@@ -1,6 +1,6 @@
 /*START OF CSS*/
 body{
-    background-color:#42455a;
+    background-image: url(Images/tony-pham-FUmDe-Bx1LA-unsplash.jpg);
     font-family: 'Bebas Neue', cursive;  
 }
 header{
@@ -17,15 +17,22 @@ header.menu{
         text-decoration: none;
 }
 /*FONTS*/
-h3{
+h1{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bolder;
+    color: white;
+    padding-top: 8%;
+}
+h2{
     font-family: 'Bebas Neue' cursive;
     font-weight: bold;
     color: black;
     padding-top: 8%;
 }
-p{
+h5{
     font-family: 'Bebas Neue' cursive;
-    color: white;  
+    color: white;
+    text-align: center;
 }
 /*NAVIGATION BAR*/
   a{
@@ -66,23 +73,11 @@ p{
   li:hover {
     cursor: pointer;
 }
-    /*BUTTON ICONS*/
-      .iconbtt{
-        display: inline-block;
-    }
-    /*ICONS*/
-     .icons{
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-    }
-    .container img {
-        width: 20%;
-        height: auto;
-    }
+    /*FORMS*/
     input[type=text] {
         border: 2px solid #000000;
         border-radius: 4px;
+        font-family: 'Bebas Neue' cursive;
       }
       input {
         width: 70%;

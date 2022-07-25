@@ -26,10 +26,11 @@ header.menu{
     text-decoration: none;
 
 }
-h1 {
-    font-size: 110px;
+h1{
+    font-family: 'Bebas Neue' cursive;
+    font-weight: bolder;
     color: white;
-    float: left;
+    padding-top: 8%;
 }
 h2 {
     font-size: 150px;
@@ -42,9 +43,14 @@ h2 {
    float: left;
    }
    h2 {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
+    font-size: 110px;
+    color: white;
     float: left;
+}
+h5{
+    font-family: 'Bebas Neue' cursive;
+    color: white;
+    text-align: center;
 }
 /*NAVIGATION BAR*/
 a{
@@ -90,3 +96,37 @@ li:hover {
     width: 60%;
     align-items: right;
   }
+   /*FOOTER*/
+   footer{
+    margin-top: 500px;
+    height: 100px;
+    color: grey;
+    left: 0;
+    right: 0;
+}
+.footer-content{
+    padding: 24px;
+    font-family: 'Bebas Neue' cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin-bottom: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    line-break: auto;
+}
+.footer-content ul a{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+.footer-content ul li{
+    display: inline-block;
+}
+footer img{
+  width: 70px;
+  height: auto;
+  padding: -60px;
+}
